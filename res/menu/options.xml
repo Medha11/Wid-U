@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item android:id="@+id/manage_cont" android:title="Manage Contacts"
+    android:icon="@android:drawable/ic_menu_manage"/>
+<item android:id="@+id/edit" android:title="Edit message"
+    android:icon="@android:drawable/ic_menu_edit"/>
+<item android:id="@+id/instructions" android:title="Instructions"/>
+<item android:id="@+id/app_info" android:title="About application"/>
+
+</menu>

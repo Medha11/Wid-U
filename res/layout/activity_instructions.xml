@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stage1.Instructions"
+    tools:ignore="MergeRootFrame" >
+<TextView
+        android:id="@+id/textView1"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:text="Select the contacts whom to send message in case of emergency from the menu->Manage Contacts tab(Maximum 5 people can be selected).\nClick on the 'Send emergency message' button to send single message to the emergency contacts.\nClick on send repeated messages button to send multiple messages to every contact at the interval of 10sec.\nClick on the sound alert button to start/stop alarm.\nThe 'Edit Message' option in menu can be used to edit the message sent to the contacts."></TextView>
+        </FrameLayout>
